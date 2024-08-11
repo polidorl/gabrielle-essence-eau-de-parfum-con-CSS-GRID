@@ -28,7 +28,21 @@ body{
     min-height: 760px;
     display: grid;
     align-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+    animation: fade .8s .6s both ease-in;
 }
+
+@keyframe fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
 .main__bg{
     min-height: 250px;
     background-image: url('./images/image-product-mobile.jpg');
@@ -91,4 +105,13 @@ body{
 }
 .main__cta::before{
     content: url('./images/icon-cart.svg');
+}
+
+@media (min-width:667px) {
+    .main__bg{
+        border-radius: 10px 0 0 10px;
+    }
+    .main__texts{
+        border-radius: 0 10px 10px 0;
+    }
 }

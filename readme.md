@@ -70,7 +70,7 @@ To see how you can add code snippets, see below:
 
 ## Steps to follow to build a project
 
- 1. Initialize the project as a public repository on [GitHub](https://github.com/).  
+ 1. Initialize the project as a public repository on [GitHub](https://github.com/polidorl/gabrielle-essence-eau-de-parfum-con-CSS-GRID/edit/master/readme.md ).  
 
 2. Configure your repository to publish your code to a web address. 
 

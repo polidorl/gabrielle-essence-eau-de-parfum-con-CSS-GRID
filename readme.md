@@ -6,6 +6,7 @@
 
   - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Links](#Links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
  
@@ -21,6 +22,12 @@ The challenge is to build out this product preview card component and get it loo
  
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
+
+### Links
+
+- Solution URL: [https://github.com/polidorl/gabrielle-essence-eau-de-parfum-con-CSS-GRID] 
+
+- Live Site URL: [https://polidorl.github.io/gabrielle-essence-eau-de-parfum-con-CSS-GRID/] 
  
  
 ### Built with
@@ -40,7 +47,33 @@ To see how you can add code snippets, see below:
   <span class="main__sold">$169.99</span>
 </p>
 ```
+
 ```css
+.main{
+     
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+    animation: fade .8s .6s both ease-in;
+}
+
+.main__cta{
+    background-color: var(--dark-cyan);
+    padding: 1em 0;
+    display: grid;
+    margin-top: 1.5em;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 8px;
+    background-color: var(--dark-cyan);
+
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    justify-content: center;
+    gap: 1em;
+    
+}
 .main__price{
     font-size:1.8rem;
     color:var(--dark-cyan);
@@ -59,30 +92,11 @@ To see how you can add code snippets, see below:
 ``` 
 
 
- 
 
- 
+ ## Author
 
-
-
-
-
-
-## Steps to follow to build a project
-
- 1. Initialize the project as a public repository on [GitHub](https://github.com/).  
-
-2. Configure your repository to publish your code to a web address. 
-
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-
-4. Before adding any styles, structure your content with HTML. Writing the HTML first   tocreating well-structured content.
-
-5. Write   the base styles for the project, including general content styles, such as `font-family` and `font-size`.
-
-6. Start adding styles to the top of the page and work down. Only move on to the next section once completed the area that working on.
-
- 
+- Website - [in/lisbeth-emperatriz-polidor-solano-139b70117] 
+- email - [polidor.lisbeth4@gmail.com] 
  
 
 
